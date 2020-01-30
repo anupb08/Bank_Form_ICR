@@ -1,0 +1,16 @@
+print_on_page >   1
+page_nos     >   [2]
+box_mark     >   1
+enable_deskew >      1
+top        >     [[0,3500],[100,3700]]
+middle      >    [[0,3500],[2300,3800]]
+bottom      >    [[0,3500],[3000,4500]]
+midbot       >   [[0,3500],[4000,4250]]
+firsthalf   >    [[0,2000],[500, 4400]]
+secondhalf  >    [[2000,4400],[500, 4400]]
+positions     >  ['top','middle','bottom','midbot', 'firsthalf', 'secondhalf']
+line_tolerance >     (8,2,20)
+segment_tolerance >     (4,1,10)
+command     > 'export LD_LIBRARY_PATH=/usr/local/lib/:$LD_LIBRARY_PATH && /home/user/Downloads/tesseract-4.0/bin/tesseract --tessdata-dir /home/user/Downloads/tesseract-4.0/ '
+position_page_1 > [950,1120]
+text_page_1 > ['application type', 'account type'] 
